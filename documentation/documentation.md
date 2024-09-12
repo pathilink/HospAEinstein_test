@@ -11,7 +11,7 @@
 | V1012 | Semana no mês | categorical | int -> string |
 | V1013 | Mês da pesquisa | categorical | int -> string |
 | V1016 | Número da entrevista no domicílio | discrete ||
-| Estrato | Estrato | ? ||
+| Estrato | Subdivisão da população em grupos homogêneos com base em características específicas. | categorical | int -> string |
 | UPA | Unidade primária de amostragem | categorical | int -> string |
 | V1022 | Situação do domicílio: 1-Ubana; 2-Rural | categorical | int -> string |
 | V1023 | Tipo de área | categorical | int -> string |
@@ -87,7 +87,7 @@
 | C01012 | Valor em dinheiro | continuous ||
 | C011A11 | Número da faixa do rendimento/retirada em dinheiro | categorical | float -> string |
 | C011A12 | Valor em dinheiro | continuous ||
-| C012 | Na maior parte do tempo, na semana passada, esse trabalho (único ou principal) foi exercido no mesmo local em que costuma trabalhar? | categorical ||
+| C012 | Na maior parte do tempo, na semana passada, esse trabalho (único ou principal) foi exercido no mesmo local em que costuma trabalhar? | categorical | float -> string |
 | C014 | O(A) Sr(a) contribui para o INSS?  | categorical | float -> string |
 | C015 | Na semana passada ___ tomou alguma providência efetiva para conseguir trabalho? | categorical | float -> string |
 | C016 | Qual o principal motivo de não ter procurado trabalho na semana passada? | categorical | float -> string |
@@ -110,11 +110,6 @@
 | F002A5 | No seu domicílio há os seguintes itens básicos de limpeza e proteção: água sanitária ou desinfetante | categorical | int -> string |
 | F0061 | Quem respondeu ao questionário? | categorical | int -> string|
 | F006 | Número de ordem do morador que prestou as informações | discrete | float -> int|
-
-## Notes
-
-* The dataframe has 1538445 rows and 106 columns.
-
-* Period: 07/2020 - 10/2020.
-
-* Columns with more than 80 per cent null values were deleted, with the exception of the ‘B’ columns related to COVID-19.
+| region | Brazilian federal regions | categorical | |
+| had_symptom | Each respondent had 1 or more symptoms | bolean ||
+| positive_test | Tested positive for COVID-19 in at least 1 type of test | bolean ||
