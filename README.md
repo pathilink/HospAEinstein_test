@@ -27,8 +27,13 @@ During the analysis, some considerations and assumptions were made:
 
 The analysis was carried out using the following steps:
 1. **Data Collection:** The public data from the PNAD COVID-19 survey was obtained from [IBGE](https://www.ibge.gov.br/estatisticas/sociais/saude/27947-divulgacao-mensal-pnadcovid2.html?edicao=28351&t=downloadsArquivos) website. The period analysed was from 07/2020 to 09/2020.
+    * Downloads > microdados > Dados > PNAD_COVID_X2020.zip
+    * Documentação > Dicionário_ PNAD_COVID_X2020_20210726.xls
+
 2. **Data Cleaning and Preparation:** Missing data was understood to be the result of questions not applicable to the respondent. The only important transformation occurred with the categorical variables, which in the database were integer or float and were changed to string. In addition, to facilitate analysis, three more variables were created (region; had_symptom; positive_test). The database resulted in 1,157,984 rows and 109 columns.
+
 3. **Data exploration**: Graphs were used to identify patterns and trends in the variables of interest.
+
 4. **Interpretation of Results:** The data was analysed to extract meaningful insights into the impact of the pandemic.
 
 ## 5. Problems Faced
