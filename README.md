@@ -1,6 +1,6 @@
 # Exploratory Data Analysis on COVID-19 in 2020
 
-![Status Badge](https://img.shields.io/static/v1?label=STATUS&message=INCOMPLETE&color=eed202)
+![Status Badge](https://img.shields.io/static/v1?label=STATUS&message=COMPLETE&color=008000)
 
 ## 1. Introducing the Problem
 
@@ -15,8 +15,13 @@ The analysis revealed important information such as:
 - **Educational Level:** Among those surveyed, the largest subgroup had Elementary School Incomplete (34%) and the second largest High School Complete (22%). However, when analysing those who tested positive for COVID-19, the proportions were reversed: 20% had Elementary School Incomplete and 29% had High School Complete. This inversion may indicate that there are more important factors influencing the level of infection.
 - **Brazilian Region:** The regions of Brazil showed disparities in the infection rate, with the Northeast (33%) having the highest percentage among those surveyed and the South (9.5%) the lowest. In percentage points, comparing the proportion between the regions, the Northeast had the biggest increase (10 percentage points) in positive cases and the South the biggest drop (-7.5 percentage points).
 - **Income:** The largest number of infected people had an income between R$801 and R$1600.
+- **Healthcare establishment:** Only 23% of people who had any symptoms seek medical attention at healthcare establishment.
+- **COVID test:** 20% of who had any symptom did the covid test.
+- **Health insurance:** 17% even with symptoms and health insurance, didn't take the test.
 
 These results offer a detailed view of how the pandemic has affected different segments of the population and can help formulate more effective policies for future health crises.
+
+In addition, the low demand for health facilities and the low percentage of tests carried out may indicate additional barriers to testing and treatment of the disease.
 
 ## 3. Considerations and Assumptions
 
@@ -44,8 +49,7 @@ There were some challenges during the analysis:
 ## 6. Next Steps
 
 To improve understanding of the impacts of the pandemic and support future research, we suggest the following next steps:
-- **Deepen Analysis:** Investigate additional variables such as comorbidities and socioeconomic conditions in more detail.
-- **Update Data:** Use more recent and comprehensive data to obtain a more temporal view.
+- **Deepen Analysis:** Investigate possible lack of access to COVID testing.
 
 ## Author
 
