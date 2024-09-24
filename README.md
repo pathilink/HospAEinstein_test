@@ -29,6 +29,7 @@ During the analysis, some considerations and assumptions were made:
 - **Data representativeness:** The study assumes that the data sample is representative of the Brazilian population.
 
 ## 4. Development of the Solution
+<img alt="Python" src="https://img.shields.io/badge/-Python-blue?style=flat&logo=python&logoColor=yellow" />  ![Badge](https://img.shields.io/badge/Colab-Google-%F9AB00?style=flat&logo=Google-Colab&color=blue)
 
 The analysis was carried out using the following steps:
 1. **Data Collection:** The public data from the PNAD COVID-19 survey was obtained from [IBGE](https://www.ibge.gov.br/estatisticas/sociais/saude/27947-divulgacao-mensal-pnadcovid2.html?edicao=28351&t=downloadsArquivos) website. The period analysed was from 07/2020 to 09/2020.
